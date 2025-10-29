@@ -102,7 +102,7 @@ const routes = [
     path: '/',
     element: <Layout />,
     children: mainRoutes
-  }
+}
 ];
 
-export const router = createBrowserRouter(routes);
+export default createBrowserRouter(routes);
